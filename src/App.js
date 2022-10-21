@@ -1,14 +1,20 @@
 import "./App.css";
+import Intro from "./Intro";
+import Skills from "./Skills";
+import Projects from "./Projects";
+import Cv from "./Cv";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
     <div>
-      <ul>
-        <li>Introduction</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>CV and experiences</li>
-      </ul>
+      <Intro />
+      <hr />
+      <Skills />
+      <hr />
+      <Projects />
+      <hr />
+      <Cv />
     </div>
   );
 }
